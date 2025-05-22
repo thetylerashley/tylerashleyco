@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div id="writing" class="bg-paper py-16 sm:py-24 sm:py-32 min-h-[50vh]">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-start gap-y-8">
+    <div class="mx-auto max-w-3xl w-full">
+      <h2 class="text-3xl font-bold font-sans tracking-tight text-pretty text-black sm:text-3xl">topics</h2>
+      <div class="space-y-16 my-8 pb-8">
+        <div class="flex flex-row justify-start flex-wrap gap-4 sm:gap-8">
+          {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+          {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+          <a href="{{ .RelPermalink }}" class="px-4 py-2 rounded bg-paper border-solid border border-paper-500 rounded font-serif italic hover:underline hover:bg-paper-300">{{ $name }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+

@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div id="writing" class="bg-paper py-16 sm:py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-start gap-y-8">
+        <div class="mx-auto max-w-3xl w-full">
+            <h2 class="text-3xl font-bold font-sans tracking-tight text-pretty text-black sm:text-3xl">
+                <a class="font-normal italic text-paper-600" href="/tags">topics /</a>&nbsp;&nbsp;{{ .Title }}
+            </h2>
+            <div class="space-y-8 sm:space-y-16 my-8 pb-8">
+            {{ range .RegularPages }}
+            <article class="flex max-w-xl flex-col items-start justify-between">
+                <div class="relative flex flex-col justify-start">
+                <div class="group">
+                    <h3 class="text-lg/6 text-black opacity-80 group-hover:opacity-100 group-hover:underline w-full">
+                    <a class="font-semibold flex flex-col sm:block" href="{{ .RelPermalink }}">
+                        {{ if .Date }}
+                            {{ $dateSimple := .Date | time.Format "2006-01-02" }}
+                            <time datetime="{{ .Date.Format "2006-01-02" }}" class="relative sm:absolute sm:left-0 font-thin mb-2 sm:mb-0">
+                                {{ $dateSimple }}
+                            </time>
+                        {{ end }}
+                        <span class="sm:ml-32">{{ .Title }}</span>
+                    </a>
+                    </h3>
+                </div>
+                <div class="mt-2 sm:ml-32 line-clamp-3 text-base/6 text-black">
+                    {{ .Summary }}
+                </div>
+                </div>
+            </article>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+

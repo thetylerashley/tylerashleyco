@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blue on Tyler Ashley Co</title>
+    <link>http://localhost:1313/tags/blue/</link>
+    <description>Recent content in Blue on Tyler Ashley Co</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Website as a Personal Artifact</title>
+      <link>http://localhost:1313/writing/website-as-personal-artifact/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/writing/website-as-personal-artifact/</guid>
+      <description>&lt;p&gt;There are lots of reasons why I have not built a personal webiste - the whole desgner problem of never being able to finalize a design, the lack of need, and my serial interest in trying new tools and learning them to a point but not putting that knowledge into practice. It will remain to be seen if this time is any different but I have a good feeling it is.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

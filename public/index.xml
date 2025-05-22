@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Tyler Ashley Co</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Tyler Ashley Co</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The eternal struggle of analog vs digital</title>
+      <link>http://localhost:1313/writing/analog-vs-digital/</link>
+      <pubDate>Thu, 13 Mar 2025 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/writing/analog-vs-digital/</guid>
+      <description>&lt;p&gt;I have this eternal struggle with analog vs digital. I love trying out new products and have bounced from one tool to the next when it comes to life organization and note taking. Add in the complexity of collaboration and syncing up which tools to use with which person and it can be a real problem. On the flip side I have been using &lt;a href=&#34;https://fieldnotesbrand.com/&#34;&gt;Field Notes&lt;/a&gt; bookelts for as long as I can remember and recently I have been crushing on a number of Japaneese stationary products. I don&amp;rsquo;t think I will ever go fully analog or fully digital but therein lies the problem of how to keep things organized and what systems to put in place to keep the two methods talking to oneanother.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Tue, 11 Mar 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;div class=&#34;isolate bg-white px-6 py-24 sm:py-32 lg:px-8&#34;&gt;&#xA;    &lt;!-- &lt;div class=&#34;absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]&#34; aria-hidden=&#34;true&#34;&gt;&#xA;      &lt;div class=&#34;relative left-1/2 -z-10 aspect-1155/678 w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]&#34; style=&#34;clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)&#34;&gt;&lt;/div&gt;&#xA;    &lt;/div&gt; --&gt;&#xA;    &lt;div class=&#34;mx-auto max-w-2xl text-center&#34;&gt;&#xA;      &lt;h2 class=&#34;text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl&#34;&gt;Contact sales&lt;/h2&gt;&#xA;      &lt;p class=&#34;mt-2 text-lg/8 text-gray-600&#34;&gt;Aute magna irure deserunt veniam aliqua magna enim voluptate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;about content&lt;/p&gt;&#xA;&lt;a class=&#34;underline text-re-l hover:text-re-d&#34; href=&#34;http://localhost:1313/writing&#34;&gt;Writing&lt;/a&gt;&#xA;&#xA;&lt;p class=&#34;font-sans&#34;&gt;Sans&lt;/p&gt;&#xA;&lt;p class=&#34;font-serif&#34;&gt;Serif&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>http://localhost:1313/family/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/family/</guid>
+      <description>&lt;div class=&#34;bg-white&#34;&gt;&#xA;    &lt;div class=&#34;mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8&#34;&gt;&#xA;      &lt;div class=&#34;relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0&#34;&gt;&#xA;        &lt;svg viewBox=&#34;0 0 1024 1024&#34; class=&#34;absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0&#34; aria-hidden=&#34;true&#34;&gt;&#xA;          &lt;circle cx=&#34;512&#34; cy=&#34;512&#34; r=&#34;512&#34; fill=&#34;url(#759c1415-0410-454c-8f7c-9a820de03641)&#34; fill-opacity=&#34;0.7&#34; /&gt;&#xA;          &lt;defs&gt;&#xA;            &lt;radialGradient id=&#34;759c1415-0410-454c-8f7c-9a820de03641&#34;&gt;&#xA;              &lt;stop stop-color=&#34;#7775D6&#34; /&gt;&#xA;              &lt;stop offset=&#34;1&#34; stop-color=&#34;#E935C1&#34; /&gt;&#xA;            &lt;/radialGradient&gt;&#xA;          &lt;/defs&gt;&#xA;        &lt;/svg&gt;&#xA;        &lt;div class=&#34;mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left&#34;&gt;&#xA;          &lt;h2 class=&#34;text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl&#34;&gt;Boost your productivity. Start using our app today.&lt;/h2&gt;&#xA;          &lt;p class=&#34;mt-6 text-lg/8 text-pretty text-gray-300&#34;&gt;Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Work 1</title>
+      <link>http://localhost:1313/work/work-1/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/work/work-1/</guid>
+      <description>Work single page</description>
+    </item>
+    <item>
+      <title>Building a Website as a Personal Artifact</title>
+      <link>http://localhost:1313/writing/website-as-personal-artifact/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/writing/website-as-personal-artifact/</guid>
+      <description>&lt;p&gt;There are lots of reasons why I have not built a personal webiste - the whole desgner problem of never being able to finalize a design, the lack of need, and my serial interest in trying new tools and learning them to a point but not putting that knowledge into practice. It will remain to be seen if this time is any different but I have a good feeling it is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>http://localhost:1313/writing/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/writing/post-2/</guid>
+      <description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;&#xA;&lt;p&gt;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/writing/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/writing/post-1/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;p&gt;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

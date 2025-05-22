@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Families on My New Hugo Site</title>
+    <link>http://localhost:1313/family/</link>
+    <description>Recent content in Families on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 May 2025 08:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/family/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shaes First</title>
+      <link>http://localhost:1313/family/shaes-first/</link>
+      <pubDate>Wed, 21 May 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/family/shaes-first/</guid>
+      <description>Shae Shae&#39;s First</description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>http://localhost:1313/family/family/</link>
+      <pubDate>Wed, 05 Mar 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/family/family/</guid>
+      <description>&lt;div class=&#34;bg-white&#34;&gt;&#xA;    &lt;div class=&#34;mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8&#34;&gt;&#xA;      &lt;div class=&#34;relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0&#34;&gt;&#xA;        &lt;svg viewBox=&#34;0 0 1024 1024&#34; class=&#34;absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0&#34; aria-hidden=&#34;true&#34;&gt;&#xA;          &lt;circle cx=&#34;512&#34; cy=&#34;512&#34; r=&#34;512&#34; fill=&#34;url(#759c1415-0410-454c-8f7c-9a820de03641)&#34; fill-opacity=&#34;0.7&#34; /&gt;&#xA;          &lt;defs&gt;&#xA;            &lt;radialGradient id=&#34;759c1415-0410-454c-8f7c-9a820de03641&#34;&gt;&#xA;              &lt;stop stop-color=&#34;#7775D6&#34; /&gt;&#xA;              &lt;stop offset=&#34;1&#34; stop-color=&#34;#E935C1&#34; /&gt;&#xA;            &lt;/radialGradient&gt;&#xA;          &lt;/defs&gt;&#xA;        &lt;/svg&gt;&#xA;        &lt;div class=&#34;mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left&#34;&gt;&#xA;          &lt;h2 class=&#34;text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl&#34;&gt;Boost your productivity. Start using our app today.&lt;/h2&gt;&#xA;          &lt;p class=&#34;mt-6 text-lg/8 text-pretty text-gray-300&#34;&gt;Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

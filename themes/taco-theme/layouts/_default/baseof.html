@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="bg-black">
+<head>
+  {{ partial "head.html" . }}
+</head>
+  {{ if eq .Type "writing" }}
+    <body class="bg-paper">
+        {{ partial "header.html" . }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+      <footer>
+        {{ partial "footer.html" . }}
+      </footer>
+    </body>
+  {{ else if or (eq .Section "writing") (eq .RelPermalink "/now/") (eq .Section "tags") }}
+    <body class="bg-paper">
+        {{ partial "header.html" . }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+      <footer>
+        {{ partial "footer.html" . }}
+      </footer>
+    </body>
+  {{ else }}
+    <body class="flex min-h-[100dvh] flex-col">
+        {{ partial "header.html" . }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+        {{- partial "footer.html" . -}}
+    </body>
+  {{ end }}
+</html>

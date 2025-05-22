@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blue on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/blue/</link>
+    <description>Recent content in Blue on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 17 Mar 2023 11:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Website as a Personal Artifact</title>
+      <link>http://localhost:1313/writing/website-as-personal-artifact/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/website-as-personal-artifact/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet consectetur. Nibh in at at vulputate ornare faucibus urna. Eu sit turpis morbi pellentesque cursus. Mattis purus maecenas porttitor egestas sed libero. Amet turpis augue scelerisque leo consequat. Laoreet odio nisi ultrices risus ullamcorper massa euismod congue eget. Massa leo felis habitant montes quam imperdiet.&#xA;Blandit in viverra vitae eget. Nunc id sapien convallis turpis velit amet augue. Eget nisi mauris malesuada eu ac nulla sed eleifend. Sagittis enim at massa etiam. Ut tellus mattis orci pulvinar non vulputate mattis justo nec. Id amet nec pulvinar ut nunc blandit felis tristique. Commodo cras odio tincidunt augue. In elit eget arcu ut. Rhoncus tincidunt porta eu vitae nec. Porttitor mi nibh diam adipiscing. Scelerisque sed ac dictumst turpis in tortor viverra.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

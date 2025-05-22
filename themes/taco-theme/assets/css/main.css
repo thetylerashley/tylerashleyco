@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Satoshi", "sans-serif";
+    --font-serif: "Zodiak", "serif";
+    --color-paper: #FFFEF8;
+    --color-paper-100: #FFFBEC;
+    --color-paper-200: #EFECDE;
+    --color-paper-300: #E0DED0;
+    --color-paper-400: #D1CFC3;
+    --color-paper-500: #C3C2B6;
+    --color-paper-600: #C3C2B6;
+    --color-paper-700: #5C5B56;
+    --color-black: #0E0D0D;
+    --color-re-d: #C03631;
+    --color-re-l: #9A1D1E;
+    --color-or-d: #CC591D;
+    --color-or-l: #A93D0D;
+    --color-ye-d: #C39100;
+    --color-ye-l: #9B7000;
+    --color-gr-d: #768A26;
+    --color-gr-l: #566E00;
+    --color-bl-d: #3872B2;
+    --color-bl-l: #1B4B97;
+    --color-te-d: #399B8D;
+    --color-te-l: #267168;
+    --color-pu-d: #7669BE;
+    --color-pu-l: #492E8E;
+    --color-ma-d: #BD4586;
+    --color-ma-l: #891C5D;
+    --color-bl-5: #1A1919;
+    --color-bl-10: #262525;
+    --color-bl-20: #3E3D3D;
+    --color-bl-30: #565656;
+    --color-bl-80: #CFCFCF;
+    --color-gr: #EBEBEB;
+    --color-purple: #3100A6;
+    --color-lime: #E6FB5A;
+    --radius-5xl: 40px;
+}
+
+@font-face {
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 200 900;
+    font-sans: swap;
+    src: url("/fonts/Satoshi-Variable.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Zodiak;
+    font-style: normal;
+    font-weight: 100 900;
+    font-serif: swap;
+    src: url("/fonts/Zodiak-Variable.woff2") format("woff2");
+}
+
+main {
+    @apply bg-transparent;
+}
+
+hr:before {
+    @apply absolute inset-x-0 top-[10px] text-center;
+    content:"***";
+}
+
+hr {
+    @apply relative;
+}
+
+#writing.single {
+
+    a {
+        @apply underline text-re-l hover:text-re-d antialiased mx-8 md:mx-auto max-w-3xl;
+    }
+
+    ul {
+        @apply list-disc ml-6 mb-2 mx-8 md:mx-auto max-w-3xl;
+        list-style-position: inside;
+    }
+    
+    ol {
+        @apply list-decimal ml-6 mb-2 mx-8 md:mx-auto max-w-3xl;
+        list-style-position: inside;
+    }
+
+    h2 {
+        @apply font-sans text-2xl font-bold mb-2 antialiased mx-8 md:mx-auto max-w-3xl;
+    }
+    
+    h3 {
+        @apply font-serif text-xl font-normal mb-1 antialiased mx-8 md:mx-auto max-w-3xl;
+    }
+    
+    h4 {
+        @apply uppercase font-serif text-sm font-normal mb-1 antialiased mx-8 md:mx-auto max-w-3xl;
+    }
+    
+    p {
+        @apply mb-2 mx-8 md:mx-auto max-w-3xl;
+    }
+
+    hr {
+        @apply my-6 border-none relative text-paper-700 text-4xl h-[40] mx-8 md:mx-auto max-w-3xl;
+    }
+   
+    blockquote{
+        @apply py-10 mx-4 sm:mx-8 md:mx-auto max-w-3xl;
+    }
+    blockquote p {
+        @apply font-semibold text-center font-serif text-xl sm:text-3xl text-re-l mb-0 mx-8 md:mx-auto max-w-3xl;
+    }
+
+    figure {
+        @apply my-3 mx-8 md:mx-auto max-w-3xl;
+    }
+
+    figure img {
+        @apply my-3 border border-solid border-[#0000008c] rounded;
+    }
+
+    figcaption p {
+        @apply text-xs font-sans mb-6 mx-8 md:mx-auto max-w-3xl;
+    }
+
+    figure.wide {
+        @apply my-12 w-full mx-auto max-w-6xl;
+    }
+
+    figure.wide img {
+        @apply my-3 border border-solid border-[#0000008c] rounded;
+    }
+
+    figure.wide figcaption p {
+        @apply text-xs font-sans mb-6 mx-auto max-w-6xl;
+    }
+
+    figure.extrawide {
+        @apply mx-auto my-20 w-full max-w-none rounded-none;
+    }
+
+    figure.extrawide img {
+        @apply w-full max-w-none border-none rounded-none;
+    }
+
+    figure.extrawide figcaption {
+        @apply hidden;
+    }
+
+}

@@ -1,0 +1,32 @@
+{{ define "main" }}
+  {{ if eq .Type "writing" }}
+  <article id="writing" class="overflow-hidden single bg-paper text-base/7 text-paper-700">
+    <div class="h-125px sm:h-[200] w-full overflow-hidden mb-8 sm:mb-12 bg-cover bg-center opacity-40 mix-blend-multiply bg-[url(/images/ink_splash_duotone_stripe_background.jpg)]">
+    </div>
+    <div class="mx-8 md:mx-auto max-w-3xl">
+      <h1 class="text-3xl tracking-tight font-medium text-pretty text-re-l sm:text-5xl mb-6 max-w-full md:max-w-[75%]">{{ .Title }}</h1>
+      <span class="text-xl font-serif font-light text-paper-700">{{- .Description -}}</span>
+      <div class="my-6 border-t border-b border-solid border-paper-300 py-4 flex sm:flex-row justify-between">
+          {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+          {{ $dateHuman := .Date | time.Format ":date_long" }}
+          <time class="italic font-medium text-base text-paper-700" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+          {{ if and .Page.Params.LastMod (ne .Page.Params.LastMod .Date) }}
+            {{ $lastMod := .Page.Params.LastMod | time.Format ":date_long" }}
+            <time class="italic font-normal text-base text-paper-600" datetime="{{ $dateMachine }}">Updated: {{ $lastMod }}</time>
+          {{ end }}
+      </div>
+    </div>
+    <div class="mb-20 font-serif text-base font-normal leading-normal text-paper-700 antialiased">
+      {{- .Content -}}
+    </div>
+  </article>
+  {{ else if eq .RelPermalink "/now/" }}
+  <div id="writing" class="overflow-hidden single bg-paper text-base/7 text-paper-700">{{ .Content }}</div>
+  {{ else if eq .Type "work" }}
+  <div class="bg-white rounded-t-5xl overflow-hidden relative pt-24">
+    {{ .Content }}
+  </div>
+  {{ else }}
+  {{ .Content }}
+  {{ end }}
+{{ end }}
