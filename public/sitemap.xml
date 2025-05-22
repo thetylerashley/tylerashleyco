@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-22T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/work/lancaster-cast-iron/</loc>
+    <lastmod>2025-05-21T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/one-little-lou/</loc>
+    <lastmod>2025-05-21T08:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/lifestyle/</loc>
-    <lastmod>2025-03-13T09:00:00-07:00</lastmod>
+    <lastmod>2025-05-19T10:00:00-08:57</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-13T09:00:00-07:00</lastmod>
+    <lastmod>2025-05-19T10:00:00-08:57</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/the-importance-of-pace/</loc>
+    <lastmod>2025-05-19T10:00:00-08:57</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/work/seedhouse/</loc>
+    <lastmod>2025-04-05T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/work/tapptiv/</loc>
+    <lastmod>2025-03-26T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/now/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/analog-vs-digital/</loc>
     <lastmod>2025-03-13T09:00:00-07:00</lastmod>
@@ -20,23 +41,23 @@
     <loc>http://localhost:1313/family/</loc>
     <lastmod>2025-03-05T08:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/logos/</loc>
+    <lastmod>2025-03-05T08:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/work/</loc>
     <lastmod>2025-03-05T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/work/work-1/</loc>
-    <lastmod>2025-03-05T08:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/blue/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/website-as-personal-artifact/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/red/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
@@ -49,9 +70,6 @@
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

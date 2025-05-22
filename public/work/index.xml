@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Work on Tyler Ashley Co</title>
+    <title>Selected Work on Tyler Ashley Co</title>
     <link>http://localhost:1313/work/</link>
-    <description>Recent content in Work on Tyler Ashley Co</description>
+    <description>Recent content in Selected Work on Tyler Ashley Co</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Mar 2025 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 08:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Work 1</title>
-      <link>http://localhost:1313/work/work-1/</link>
-      <pubDate>Wed, 05 Mar 2025 08:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/work/work-1/</guid>
-      <description>Work single page</description>
+      <title>Lancaster Cast Iron</title>
+      <link>http://localhost:1313/work/lancaster-cast-iron/</link>
+      <pubDate>Wed, 21 May 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/work/lancaster-cast-iron/</guid>
+      <description>Our work for Lancaster Cast Iron refreshed their existing branding while keeping its traditional roots intact. By introducing a modern color palette, red as the primary and gold as an accent, we updated their packaging guidelines to feel both fresh and timeless.</description>
+    </item>
+    <item>
+      <title>Seedhouse Coffee</title>
+      <link>http://localhost:1313/work/seedhouse/</link>
+      <pubDate>Sat, 05 Apr 2025 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/work/seedhouse/</guid>
+      <description>Our work with Seedhouse Coffee brought warmth and clarity to a brand rooted in the Rockies. We refined their identity with subtle shifts—leaning into their approachable, adventurous spirit while giving the packaging just enough edge to stand out on both shelves and screens.</description>
+    </item>
+    <item>
+      <title>Tapptiv Email Marketing</title>
+      <link>http://localhost:1313/work/tapptiv/</link>
+      <pubDate>Wed, 26 Mar 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/tapptiv/</guid>
+      <description>Working with Tapptiv Email Marketing we collaborated as designer and developer to create monthly newsletters for multiple clients across different industries.</description>
     </item>
   </channel>
 </rss>
