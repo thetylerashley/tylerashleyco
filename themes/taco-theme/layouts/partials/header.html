@@ -64,7 +64,7 @@
       </div>
     </div> -->
   </header> 
-{{ else if or (eq .RelPermalink "/family/") (eq .RelPermalink "/one-little-lou/") }}
+{{ else if or (eq .RelPermalink "/family/") }}
   <header class="bg-white">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <a href="/" class="-m-1.5 p-1.5">
@@ -77,6 +77,18 @@
         <a href="/contact" class="text-sm/6 font-semibold text-gray-900">Contact <span aria-hidden="true">&rarr;</span></a> -->
         <a href="sms:+17174190308" class="block sm:hidden text-sm/6 font-semibold text-gray-900">Text Me!</a>
         <a href="mailto:tylerashley13@gmail.com" class="hidden sm:block text-sm/6 font-semibold text-gray-900">Email Me <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </nav>
+  </header>
+{{ else if or (eq .RelPermalink "/one-little-lou/") }}
+  <header class="bg-white">
+    <nav class="relative z-10 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <a href="/" class="-m-1.5 p-1.5">
+        <span class="sr-only">Tyler Ashley Co</span>
+        <img class="h-8 w-auto" src="/images/tyler-ashley-co_logo_green.svg" alt="">
+      </a>
+      <div class="lflex lg:gap-x-12">
+        <a href="sms:+17174190308" class="block text-sm/6 font-semibold text-gray-900 hover:text-bl-d">Text to RSVP <span aria-hidden="true">&rarr;</span></a>
       </div>
     </nav>
   </header>

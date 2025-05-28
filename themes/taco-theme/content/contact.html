@@ -13,8 +13,9 @@ draft = false
         <h2 class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">Contact</h2>
         <p class="mt-2 text-lg/8 text-gray-600">Have a job in mind? Let's chat!</p>
       </div>
-      <form action="/success/contact" name="contact" data-netlify="true" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form action="/success/contact" name="contact" data-netlify="true" method="POST" netlify-honeypot="bot-field" class="mx-auto mt-16 max-w-xl sm:mt-20">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+          <input type="hidden" name="subject" value="New lead from %{formName} (%{submissionId})" class="">
           <div class="hidden">
             <label>
               Don’t fill this out if you’re human: <input name="bot-field" />
