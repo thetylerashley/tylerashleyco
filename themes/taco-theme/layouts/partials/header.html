@@ -123,6 +123,33 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
       </div>
     </div>
   </div>
+  <!-- mobile menu -->
+  <!-- <div
+  id="mobile-menu"
+  role="dialog"
+  aria-modal="true"
+  class="block sm:hidden fixed w-full bg-black transform transition-[height] z-50"
+  :class="open ? '' : 'h-[.5-rem]'"
+  >
+    <div class="">
+      mobile menu
+      <button
+          @click="toggle()"
+          type="button"
+          aria-expanded="false"
+          aria-controls=":R3a:"
+          class="group -m-2.5 rounded-full p-2.5 transition hover:bg-white/10 hover:cursor-pointer"
+          aria-label="Toggle navigation"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"
+            class="h-6 w-6 fill-white group-hover:fill-neutral-200">
+            <path d="m5.636 4.223 14.142 14.142-1.414 1.414L4.222 5.637z"></path>
+            <path d="M4.222 18.363 18.364 4.22l1.414 1.414L5.636 19.777z"></path>
+          </svg>
+      </button>
+    </div>
+</div> -->
+  <!-- menu -->
   <div
   id="menu"
   class="relative z-50 overflow-hidden bg-neutral-950 pt-2 transform transition-[height]"

@@ -2,7 +2,8 @@
 <html lang="en-US" dir="ltr" class="bg-black">
 <head>
 	<meta name="generator" content="Hugo 0.145.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8">
+  
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>My New Hugo Site</title>
 
@@ -22,7 +23,12 @@
   <meta name="twitter:title" content="Home">
       <meta name="twitter:site" content="@thetylerashley">
 
-
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="TA.CO" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
 </head>
   
     <body class="flex min-h-[100dvh] flex-col">
@@ -57,6 +63,9 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
       </div>
     </div>
   </div>
+  
+  
+  
   <div
   id="menu"
   class="relative z-50 overflow-hidden bg-neutral-950 pt-2 transform transition-[height]"
@@ -188,6 +197,7 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
       <main>
         
 <div class="bg-white rounded-t-5xl overflow-hidden pt-24 relative">
+  
   <div class="relative">
       <div class="relative isolate">
         <svg class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]" aria-hidden="true">
@@ -215,7 +225,7 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
                   <a href="/work" class="text-sm/6 font-semibold text-gray-900 hover:underline hover:text-purple">Explore Our Work <span aria-hidden="true">→</span></a>
                 </div>
               </div>
-              <div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+              <div class="hidden sm:flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                 <div class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                   <div class="relative">
                     <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=2080&auto=format&fit=crop" alt="" class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
@@ -243,69 +253,97 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
                   </div>
                 </div>
               </div>
+                <div class="mt-16 block sm:hidden">
+                  <div class="-my-4 flex justify-center gap-5 py-4 sm:gap-8">
+                    <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+                      <img alt="" loading="lazy" width="3744" height="5616" decoding="async" data-nimg="1" class="absolute inset-0 h-full w-full object-cover" style="color:transparent" sizes="(min-width: 640px) 18rem, 11rem" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=2080&auto=format&fit=crop">
+                  </div>
+                    <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 -rotate-2">
+                      <img alt="" loading="lazy" width="3936" height="2624" decoding="async" data-nimg="1" class="absolute inset-0 h-full w-full object-cover" style="color:transparent" sizes="(min-width: 640px) 18rem, 11rem" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop">
+                    </div>
+                    <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+                      <img alt="" loading="lazy" width="5760" height="3840" decoding="async" data-nimg="1" class="absolute inset-0 h-full w-full object-cover" style="color:transparent" sizes="(min-width: 640px) 18rem, 11rem" src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=1887&auto=format&fit=crop">
+                    </div>
+                    <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 -rotate-2">
+                      <img alt="" loading="lazy" width="4240" height="2384" decoding="async" data-nimg="1" class="absolute inset-0 h-full w-full object-cover" style="color:transparent" sizes="(min-width: 640px) 18rem, 11rem" src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=2070&auto=format&fit=crop">
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
       </div>
   </div>
+  
   <div class="relative mx-auto lg:mx-24 rounded-5xl bg-black py-20 z-20">
       <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <div class="mx-auto max-w-2xl lg:max-w-none">
           <div class="max-w-3xl" style="opacity: 1; transform: none;">
-            <h2><span class="block font-sans tracking-tight [text-wrap:balance] text-4xl font-medium sm:text-5xl text-white">What we offer</span></h2>
-            <div class="mt-6 text-xl text-gray-100">
+            <h2><span class="block font-sans tracking-tight [text-wrap:balance] text-3xl sm:text-4xl font-medium sm:text-5xl text-white">What we offer</span></h2>
+            <div class="mt-2 sm:mt-6 text-base sm:text-xl text-gray-100">
               <p>We believe in solutions at the intersection of business and design. Pushing the limits of creativity while remaining rooted to business goals and strategy is core to our approach.</p>
             </div>
           </div>
         </div>
         <div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <div class="flex p-px lg:col-span-4">
-            <div class="relative overflow-hidden rounded-lg  bg-gradient-to-br from-[#000000] to-[#1A1919] ring-1 ring-bl-10 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
+            <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-[#000000] to-[#1A1919] ring-1 ring-bl-10 lg:rounded-tl-[2rem] ">
               
-              <img class="h-80 object-cover object-left" src="/images/design.png" alt="">
-              <div class="p-10">
-                <h3 class="text-sm/4 font-semibold text-gray-400">Web Design & Development</h3>
-                <p class="mt-2 text-lg font-medium tracking-tight text-white"><span class="font-bold uppercase italic">Boost</span>&nbsp;&nbsp;your online presence</p>
-                <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Crafting intuitive and delightful user experience to elevate your online presence and turn prospects into customers.</p>
+              <div class="mt-4 mx-4 sm:m-0 overflow-hidden rounded-lg sm:rounded-none">
+                <img class="hidden sm:block h-80 object-cover object-left" src="/images/design.png" alt="">
+                <img class="object-cover object-left block sm:hidden" src="/images/design-mobile.png" alt="">
+              </div>
+              <div class="p-4 sm:p-10">
+                <h3 class="text-2xl sm:text-3xl font-light text-gray-100">Web Design & Development</h3>
+                <p class="mt-2 max-w-lg text-sm/6 leading-tight sm:leading-normal text-gray-300">Boost</span>&nbsp;&nbsp;your online presence - Crafting intuitive and delightful user experience to elevate your online presence and turn prospects into customers.</p>
               </div>
             </div>
           </div>
           <div class="flex p-px lg:col-span-2">
             <div class="relative overflow-hidden rounded-lg bg-gradient-to-bl from-[#000000] to-[#1A1919] ring-1 ring-bl-10 lg:rounded-tr-[2rem]">
               
-              <img class="h-80 object-cover" src="/images/advertising.png" alt="">
-              <div class="p-10">
-                <h3 class="text-sm/4 font-semibold text-gray-400">Digital Advertising</h3>
-                <p class="mt-2 text-lg font-medium tracking-tight text-white">Reach new customers or audiences</p>
-                <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Advertise your brand with confidence and reach customers right where they are.</p>
+               <div class="mt-4 mx-4 sm:m-0 overflow-hidden rounded-lg sm:rounded-none">
+                <img class="hidden sm:block h-80 object-cover object-left" src="/images/advertising.png" alt="">
+                <img class="object-cover object-left block sm:hidden" src="/images/advertising-mobile.png" alt="">
+              </div>
+              <div class="p-4 sm:p-10">
+                <h3 class="text-2xl sm:text-3xl font-light text-gray-100">Digital Advertising</h3>
+                <p class="mt-2 max-w-lg text-sm/6 leading-tight sm:leading-normal text-gray-300">Advertise your brand with confidence and reach customers right where they are.</p>
               </div>
             </div>
           </div>
           <div class="flex p-px lg:col-span-2">
             <div class="relative overflow-hidden rounded-lg bg-black ring-1 ring-bl-10 lg:rounded-bl-[2rem]">
               
-              <img class="h-80 object-cover" src="/images/print.png" alt="">
-              <div class="p-10">
-                <h3 class="text-sm/4 font-semibold text-gray-400">Print Marketing</h3>
-                <p class="mt-2 text-lg font-medium tracking-tight text-white">Your packaging should <span class="italic">stand out</span></p>
-                <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Leave a lasting impact with each touchpoint with your brand - from initial discovery to unboxing.</p>
+               <div class="mt-4 mx-4 sm:m-0 overflow-hidden rounded-lg sm:rounded-none">
+                <img class="hidden sm:block h-80 object-cover object-left" src="/images/print.png" alt="">
+                <img class="object-cover object-left block sm:hidden" src="/images/print-mobile.png" alt="">
+              </div>
+              <div class="p-4 sm:p-10">
+                <h3 class="text-2xl sm:text-3xl font-light text-gray-100">Print Marketing</h3>
+                
+                <p class="mt-2 max-w-lg text-sm/6 leading-tight sm:leading-normal text-gray-300">Leave a lasting impact with each touchpoint with your brand - from initial discovery to unboxing.</p>
               </div>
             </div>
           </div>
           <div class="flex p-px lg:col-span-4">
-            <div class="relative overflow-hidden rounded-lg bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#000000] to-[#1A1919] ring-1 ring-bl-10 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">
+            <div class="relative overflow-hidden rounded-lg bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#000000] to-[#1A1919] ring-1 ring-bl-10 lg:rounded-br-[2rem]">
               
-              <img class="h-80 object-cover object-left" src="/images/logo.png" alt="">
-              <div class="p-10">
-                <h3 class="text-sm/4 font-semibold text-gray-400">Logo & Brand Identity</h3>
-                <p class="mt-2 text-lg font-medium tracking-tight text-white">Light brand refresh to complete brand identity</p>
-                <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Transforming your ideas into unique and memorable brand identities as a refresh on your existing brand or to get your business off the ground.</p>
+               <div class="mt-4 mx-4 sm:m-0 overflow-hidden rounded-lg sm:rounded-none">
+                <img class="hidden sm:block h-80 object-cover object-left" src="/images/logo.png" alt="">
+                <img class="object-cover object-left block sm:hidden" src="/images/logo-mobile.png" alt="">
+              </div>
+              <div class="p-4 sm:p-10">
+                <h3 class="text-2xl sm:text-3xl font-light text-gray-100">Logo & Brand Identity</h3>
+                
+                <p class="mt-2 max-w-lg text-sm/6 leading-tight sm:leading-normal text-gray-300">Transforming your ideas into unique and memorable brand identities as a refresh on your existing brand or to get your business off the ground.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
   </div>
+  
   <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="max-w-2xl" style="opacity: 1; transform: none;">
@@ -364,35 +402,7 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
       </div>
     </div>
   </div>
-  <div class="relative isolate py-16 sm:py-28 md:py-32 mt-24 sm:mt-32 lg:mt-40">
-    <svg class="absolute inset-x-0 top-0 -z-10 h-[32rem] w-full stroke-gray-200 [mask-image:radial-gradient(20rem_20rem_at_center,white,transparent)]" aria-hidden="true">
-      <defs>
-        <pattern id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-          <path d="M.5 200V.5H200" fill="none"></path>
-        </pattern>
-      </defs>
-      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-        <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0"></path>
-      </svg>
-      <rect width="100%" height="100%" stroke-width="0" fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"></rect>
-    </svg>
-    <div class="absolute top-0 -left-1/4 -z-10 -mr-24 transform-gpu overflow-hidden blur-3xl opacity-50" aria-hidden="true">
-      <div class="aspect-801/1036 w-[50.0625rem] bg-linear-to-t from-[#3100A6] to-[#EFE500] opacity-40" style="clip-path: polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)"></div>
-    </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:max-w-none">
-        <div style="opacity: 1; transform: none;">
-          <figure class="mx-auto max-w-4xl">
-            <blockquote class="relative font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
-              <p class="before:content-['“'] after:content-['”'] sm:before:absolute sm:before:right-full">The quality of work is exceptional, with every detail carefully considered and executed to perfection. Their attention to detail ensures a polished, professional result that truly stands out.</p>
-            </blockquote>
-            <figcaption class="mt-10"><img alt="Phobia" loading="lazy" width="184" height="36" decoding="async"
-                data-nimg="1" src="https://www.seedhouse.coffee/cdn/shop/products/SEEDHOUSE_logo_dark.png" style="color: transparent;"></figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <div class="mx-auto lg:mx-24 px-6 lg:px-8 my-24 sm:my-32 lg:my-40">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12"
@@ -401,9 +411,11 @@ x-data="{ open: false, toggle() { this.open = ! this.open } }"
           <div class="max-w-xl">
             <h2 class="font-display text-3xl font-medium [text-wrap:balance] text-white sm:text-4xl">Tell us about your
               project</h2>
-            <div class="mt-6 flex"><a
+            <div class="mt-6 flex">
+              <a
                 class="inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-white text-neutral-950 hover:bg-neutral-200"
-                href="/contact"><span class="relative top-px">Get Started</span></a></div>
+                href="/contact"><span class="relative top-px">Get Started</span></a>
+            </div>
             <div class="mt-10 border-t border-white/10 pt-10">
               <h3 class="font-display text-base font-semibold text-white">Some Of Our Clients</h3>
               <ul role="list" class="mt-6 grid grid-cols-3 gap-8 sm:flex sm:flex-row sm:justify-between">
