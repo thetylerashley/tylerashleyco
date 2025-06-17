@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-22T08:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/work/lancaster-cast-iron/</loc>
     <lastmod>2025-05-21T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/one-little-lou/</loc>
-    <lastmod>2025-05-21T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/lifestyle/</loc>
-    <lastmod>2025-05-19T10:00:00-08:57</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-19T10:00:00-08:57</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/the-importance-of-pace/</loc>
     <lastmod>2025-05-19T10:00:00-08:57</lastmod>
@@ -41,28 +30,10 @@
     <loc>http://localhost:1313/success/contact/</loc>
     <lastmod>2025-03-05T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/family/</loc>
-    <lastmod>2025-03-05T08:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/logos/</loc>
     <lastmod>2025-03-05T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/work/</loc>
-    <lastmod>2025-03-05T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/success/</loc>
-    <lastmod>2025-03-05T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/blue/</loc>
-    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/writing/website-as-personal-artifact/</loc>
-    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/green/</loc>
-    <lastmod>2023-03-17T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/red/</loc>
     <lastmod>2023-03-17T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/post-2/</loc>
@@ -70,11 +41,5 @@
   </url><url>
     <loc>http://localhost:1313/writing/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url>
 </urlset>
