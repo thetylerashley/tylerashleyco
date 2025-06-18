@@ -1,6 +1,8 @@
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+{{ if or (ne .Kind "page") (and (eq .Kind "page") (eq .Params.sitemap_exclude true)) }}
+  <meta name="robots" content="noindex, nofollow" />
+{{ end }}
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partial "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

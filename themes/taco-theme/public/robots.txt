@@ -1,1 +1,8 @@
 User-agent: *
+
+Disallow: /tags/
+Disallow: family.html
+Disallow: one-little-lou.html
+Disallow: 404.html
+
+Sitemap: http://localhost:1313/sitemap.xml
