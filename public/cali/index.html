@@ -25,8 +25,7 @@
     <meta name="apple-mobile-web-app-title" content="TA.CO" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
 </head>
-    <body class="flex min-h-[100dvh] flex-col bg-white">
-        
+<body class="flex min-h-[100dvh] flex-col bg-white">
   <header class="bg-white">
     <nav class="relative z-20 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <a href="/" class="-m-1.5 p-1.5">
@@ -38,301 +37,296 @@
       </div>
     </nav>
   </header>
-
-<main class="mx-auto max-w-7xl items-center p-6 lg:px-8 ">
-
-<div class="flex flex-col lg:flex-row gap-8">
-  <div class="lg:w-1/2 flex flex-col justify-center">
-    <div class="px-4 sm:px-0">
-      <h3 class="text-5xl font-semibold text-gray-900 dark:text-white font-averia">Cali Riden Ashley</h3>
-      <!-- <p class="mt-1 max-w-2xl text-sm/6 text-bl-30">Personal details and application.</p> -->
-    </div>
-  </div>
-  <div class="flex flex-col gap-8">
-    <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
-      <div class="relative overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
-        <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Weight<h4t>
-        <h3 class="mt-12 text-5xl font-sans font-semibold tracking-tight text-bl-5">1lb 12oz</h3>
-        <div class="flex flew-row justify-start gap-8">
-          <p class="mt-8 text-sm font-normal font-sans tracking-tight text-paper-700"><strong>Current Weight:</strong>&nbsp;790g</p>
-          <p class="mt-8 text-sm font-normal font-sans tracking-tight text-paper-700"><strong>Birthweight:</strong>&nbsp;685g</p>
-        </div>
-        <div class="absolute inset-x-0 bottom-0 h-24 pointer-events-none" style="background: radial-gradient(ellipse at 50% 100%, rgba(22, 163, 74, 0.12) 0%, transparent 70%);"></div>
+  <main class="mx-auto max-w-7xl items-center p-6 lg:px-8 ">
+    <div class="flex flex-col lg:flex-row gap-8">
+      <div class="lg:w-1/2 flex flex-col justify-center">
+        <div class="px-4 sm:px-0">
+          <h3 class="text-5xl font-semibold text-gray-900 font-averia">Cali Riden Ashley</h3>    </div>
       </div>
-      <div class="relative overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
-        <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Feeding</h4>
-        <div class="mt-12 flex flex-row justify-between items-end">
-          <h3 class="text-5xl font-sans font-semibold tracking-tight text-bl-5">16ml <span class="text-base text-paper-700 ml-4 font-normal">Every 3hrs (90min pump)</span></h3>
-          <!-- <div class="px-2 py-1 bg-green-100 border border-solid border-green-300 text-green-800 rounded-full text-sm font-semibold">24%</div> -->
+      <div class="flex flex-col gap-8">
+        <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div class="relative overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
+            <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Weight<h4t>
+            <h3 class="mt-12 text-5xl font-sans font-semibold tracking-tight text-bl-5">1lb 12oz</h3>
+            <div class="flex flew-row justify-start gap-8">
+              <p class="mt-8 text-sm font-normal font-sans tracking-tight text-paper-700"><strong>Current Weight:</strong>&nbsp;790g</p>
+              <p class="mt-8 text-sm font-normal font-sans tracking-tight text-paper-700"><strong>Birthweight:</strong>&nbsp;685g</p>
+            </div>
+            <div class="absolute inset-x-0 bottom-0 h-24 pointer-events-none" style="background: radial-gradient(ellipse at 50% 100%, rgba(22, 163, 74, 0.12) 0%, transparent 70%);"></div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
+            <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Feeding</h4>
+            <div class="mt-12 flex flex-row justify-between items-end">
+              <h3 class="text-5xl font-sans font-semibold tracking-tight text-bl-5">16ml <span class="text-base text-paper-700 ml-4 font-normal">Every 3hrs (90min pump)</span></h3>
+              <!-- <div class="px-2 py-1 bg-green-100 border border-solid border-green-300 text-green-800 rounded-full text-sm font-semibold">24%</div> -->
+            </div>
+            <div id="feeding-graph" class="mt-8 w-full"></div>
+            <!-- FEEDING UPDATES -->
+            <script>
+            (function () {
+              const data = [
+                { date: "05/06", ml: 0 },
+                { date: "05/07", ml: 1.5 },
+                { date: "05/08", ml: 3.5 },
+                { date: "05/09", ml: 4.5 },
+                { date: "05/10", ml: 6.5 },
+                { date: "05/11", ml: 8.5 },
+                { date: "05/12", ml: 10 },
+                { date: "05/13", ml: 12 },
+                { date: "05/14", ml: 14 },
+                { date: "05/15", ml: 14 },
+                { date: "05/16", ml: 14.5 },
+                { date: "05/17", ml: 15 },
+                { date: "05/18", ml: 16 },
+                { date: "05/19", ml: 15 },
+                { date: "05/20", ml: 16 },
+                { date: "05/21", ml: 16 },
+                { date: "05/22", ml: 14 },
+                { date: "05/23", ml: 15 },
+                { date: "05/24", ml: 16 },
+                { date: "05/25", ml: 16 },
+                { date: "05/26", ml: 16 },
+                { date: "05/27", ml: 16 },
+                { date: "05/28", ml: 16 },
+              ];
+
+              const recent = data.slice(-5);
+              const yStep = 5;
+              const maxY = Math.ceil(Math.max(...recent.map(d => d.ml)) / yStep) * yStep + yStep;
+              const pad = { t: 8, r: 8, b: 24, l: 32 };
+              const svgW = 300;
+              const colW = Math.floor((svgW - pad.l - pad.r) / recent.length);
+              const plotH = 100;
+              const svgH = pad.t + plotH + pad.b;
+              const plotW = colW * recent.length;
+              const ns = "http://www.w3.org/2000/svg";
+
+              function xPos(i)  { return pad.l + i * colW + colW / 2; }
+              function yPos(ml) { return pad.t + plotH - (ml / maxY) * plotH; }
+
+              const svg = document.createElementNS(ns, "svg");
+              svg.setAttribute("viewBox", `0 0 ${svgW} ${svgH}`);
+              svg.setAttribute("class", "w-full");
+
+              // horizontal grid lines + y-axis labels
+              for (let ml = 0; ml <= maxY; ml += yStep) {
+                const y = yPos(ml);
+                const gl = document.createElementNS(ns, "line");
+                gl.setAttribute("x1", pad.l); gl.setAttribute("y1", y);
+                gl.setAttribute("x2", pad.l + plotW); gl.setAttribute("y2", y);
+                gl.setAttribute("stroke", ml === 0 ? "#d1d5db" : "#EFECDE");
+                gl.setAttribute("stroke-width", "1");
+                svg.appendChild(gl);
+
+                const lbl = document.createElementNS(ns, "text");
+                lbl.setAttribute("x", pad.l - 4);
+                lbl.setAttribute("y", y + 3);
+                lbl.setAttribute("text-anchor", "end");
+                lbl.setAttribute("font-size", "9");
+                lbl.setAttribute("fill", "#5c5b56");
+                lbl.setAttribute("font-family", "Inter, sans-serif");
+                lbl.textContent = ml + "ml";
+                svg.appendChild(lbl);
+              }
+
+              // x-axis date labels + vertical column lines
+              recent.forEach(function(d, i) {
+                const x = xPos(i);
+                const cl = document.createElementNS(ns, "line");
+                cl.setAttribute("x1", x); cl.setAttribute("y1", pad.t);
+                cl.setAttribute("x2", x); cl.setAttribute("y2", pad.t + plotH);
+                cl.setAttribute("stroke", "#f9fafb"); cl.setAttribute("stroke-width", "1");
+                svg.appendChild(cl);
+
+                const lbl = document.createElementNS(ns, "text");
+                lbl.setAttribute("x", x);
+                lbl.setAttribute("y", svgH - 6);
+                lbl.setAttribute("text-anchor", "middle");
+                lbl.setAttribute("font-size", "9");
+                lbl.setAttribute("fill", "#5c5b56");
+                lbl.setAttribute("font-family", "Inter, sans-serif");
+                lbl.textContent = d.date;
+                svg.appendChild(lbl);
+              });
+
+              // smooth connecting line (catmull-rom)
+              const pts = recent.map(function(d, i) { return { x: xPos(i), y: yPos(d.ml) }; });
+              let d = "M " + pts[0].x + "," + pts[0].y;
+              for (let i = 0; i < pts.length - 1; i++) {
+                const p0 = pts[i - 1] || pts[i];
+                const p1 = pts[i];
+                const p2 = pts[i + 1];
+                const p3 = pts[i + 2] || pts[i + 1];
+                const cp1x = p1.x + (p2.x - p0.x) / 6;
+                const cp1y = p1.y + (p2.y - p0.y) / 6;
+                const cp2x = p2.x - (p3.x - p1.x) / 6;
+                const cp2y = p2.y - (p3.y - p1.y) / 6;
+                d += " C " + cp1x + "," + cp1y + " " + cp2x + "," + cp2y + " " + p2.x + "," + p2.y;
+              }
+              const path = document.createElementNS(ns, "path");
+              path.setAttribute("d", d);
+              path.setAttribute("fill", "none");
+              path.setAttribute("stroke", "#A93D0D");
+              path.setAttribute("stroke-width", "2");
+              path.setAttribute("stroke-linecap", "round");
+              svg.appendChild(path);
+
+              document.getElementById("feeding-graph").appendChild(svg);
+            })();
+            </script>
+          </div>
         </div>
-        <div id="feeding-graph" class="mt-8 w-full"></div>
-        <!-- FEEDING UPDATES -->
+        <div x-data="{ open: false }" class="overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
+          <div class="flex flex-row justify-between items-center">
+            <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Updates</h4>
+            <button @click="open = true" class="text-sm/6 font-sans font-semibold text-bl-5 hover:text-gr-l hover:cursor-pointer">View all</button>
+          </div>
+          <ul id="updates-preview" role="list" class="-mb-8 mt-4"></ul>
+
+          <!-- modal -->
+          <div x-show="open" x-cloak @click.self="open = false" class="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4" style="display:none">
+            <div class="relative bg-white rounded-xl shadow-xl w-full max-w-xl flex flex-col max-h-[80vh]">
+              <div class="flex items-center justify-between px-6 py-4 border-b border-gray-200 shrink-0">
+                <h3 class="text-sm font-semibold text-bl-5">All Updates</h3>
+                <button @click="open = false" class="text-gray-400 hover:text-gray-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" /></svg>
+                </button>
+              </div>
+              <div class="overflow-y-auto px-6 py-4">
+                <ul id="updates-all" role="list" class="-mb-8"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- UPDATES ACTIVITY FEED -->
         <script>
         (function () {
-          const data = [
-            { date: "05/06", ml: 0 },
-            { date: "05/07", ml: 1.5 },
-            { date: "05/08", ml: 3.5 },
-            { date: "05/09", ml: 4.5 },
-            { date: "05/10", ml: 6.5 },
-            { date: "05/11", ml: 8.5 },
-            { date: "05/12", ml: 10 },
-            { date: "05/13", ml: 12 },
-            { date: "05/14", ml: 14 },
-            { date: "05/15", ml: 14 },
-            { date: "05/16", ml: 14.5 },
-            { date: "05/17", ml: 15 },
-            { date: "05/18", ml: 16 },
-            { date: "05/19", ml: 15 },
-            { date: "05/20", ml: 16 },
-            { date: "05/21", ml: 16 },
-            { date: "05/22", ml: 14 },
-            { date: "05/23", ml: 15 },
-            { date: "05/24", ml: 16 },
-            { date: "05/25", ml: 16 },
-            { date: "05/26", ml: 16 },
-            { date: "05/27", ml: 16 },
-            { date: "05/28", ml: 16 },
+          // ── ADD NEW ENTRIES HERE — oldest first, newest last ──────────────────
+          const updates = [
+            {
+              type: "stat",
+              name: "Tyler Ashley",
+              time: "on 5/09",
+              tags: [
+                { label: "Weight", color: "fill-gr-l" },
+                { label: "Feeding", color: "fill-or-l" },
+              ],
+            },
+            {
+              type: "stat",
+              name: "Tyler Ashley",
+              time: "on 5/10",
+              tags: [
+                { label: "Weight", color: "fill-gr-l" },
+                { label: "Feeding", color: "fill-or-l" },
+              ],
+            },
+            
+            {
+              type: "comment",
+              name: "Tori Radick",
+              avatar: "/images/vradick-profile.png",
+              time: "on 5/11",
+              body: "Cali's right lung is doing much better, and no brain bleeds found on the head ultrasound either. They found a moderate murmur on his echo and will start with some medication to help close his PDA.",
+            },
+            {
+              type: "comment",
+              name: "Tyler Ashley",
+              avatar: "/images/tashley-profile.png",
+              time: "on 5/12",
+              body: "IVC was removed and an IV was placed on his right hand. Cali had his food fortified. We got a call around 8pm that the fortified food did not sit well and he even reched up his breathing tube - will move to a slower feed rate to see if that helps.",
+            },
+            {
+              type: "stat",
+              name: "Tyler Ashley",
+              time: "on 5/12",
+              tags: [
+                { label: "Weight", color: "fill-gr-l" },
+                { label: "Feeding", color: "fill-or-l" },
+              ],
+            },
+            {
+              type: "comment",
+              name: "Tyler Ashley",
+              avatar: "/images/tashley-profile.png",
+              time: "on 5/15",
+              body: "Cali's PDA closed slighly, moved from Moderate to Slight-Moderate. He started a second round of the medication in hopes for it to continue to close. He will get a follow up Echo on 5/18 to review the second round of medication. He also came off of the humidity, and got a new bed.",
+            },
+            {
+              type: "stat",
+              name: "Tyler Ashley",
+              time: "on 5/18",
+              tags: [
+                { label: "Weight", color: "fill-gr-l" },
+                { label: "Feeding", color: "fill-or-l" },
+              ],
+            },
+            {
+              type: "comment",
+              name: "Tyler Ashley",
+              avatar: "/images/tashley-profile.png",
+              time: "on 5/19",
+              body: "Cali opened his eyes for the first time! He also started a 10day tapered round of steriods for his lung development.",
+            },
+            {
+              type: "comment",
+              name: "Tyler Ashley",
+              avatar: "/images/tashley-profile.png",
+              time: "on 5/25",
+              body: "Cali got his second blood transfusion. His WBC went down and the Dr. ordered a brain ultrasound to check for any brain bleeds.",
+            },
+            {
+              type: "comment",
+              name: "Tyler Ashley",
+              avatar: "/images/tashley-profile.png",
+              time: "on 5/26",
+              body: "UPDATE: ultrasound results came in and there were no brain bleeds!",
+            },
+            {
+              type: "stat",
+              name: "Tyler Ashley",
+              time: "on 5/28",
+              tags: [
+                { label: "Weight", color: "fill-gr-l" },
+                { label: "Feeding", color: "fill-or-l" },
+              ],
+            },
+            
           ];
+          // ─────────────────────────────────────────────────────────────────────
 
-          const recent = data.slice(-5);
-          const yStep = 5;
-          const maxY = Math.ceil(Math.max(...recent.map(d => d.ml)) / yStep) * yStep + yStep;
-          const pad = { t: 8, r: 8, b: 24, l: 32 };
-          const svgW = 300;
-          const colW = Math.floor((svgW - pad.l - pad.r) / recent.length);
-          const plotH = 100;
-          const svgH = pad.t + plotH + pad.b;
-          const plotW = colW * recent.length;
-          const ns = "http://www.w3.org/2000/svg";
+          const STAT_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-bl-30"><path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z" /></svg>`;
 
-          function xPos(i)  { return pad.l + i * colW + colW / 2; }
-          function yPos(ml) { return pad.t + plotH - (ml / maxY) * plotH; }
+          function renderItem(entry, isLast) {
+            const li = document.createElement("li");
+            const line = isLast ? "" : `<span aria-hidden="true" class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-paper-600"></span>`;
 
-          const svg = document.createElementNS(ns, "svg");
-          svg.setAttribute("viewBox", `0 0 ${svgW} ${svgH}`);
-          svg.setAttribute("class", "w-full");
-
-          // horizontal grid lines + y-axis labels
-          for (let ml = 0; ml <= maxY; ml += yStep) {
-            const y = yPos(ml);
-            const gl = document.createElementNS(ns, "line");
-            gl.setAttribute("x1", pad.l); gl.setAttribute("y1", y);
-            gl.setAttribute("x2", pad.l + plotW); gl.setAttribute("y2", y);
-            gl.setAttribute("stroke", ml === 0 ? "#d1d5db" : "#EFECDE");
-            gl.setAttribute("stroke-width", "1");
-            svg.appendChild(gl);
-
-            const lbl = document.createElementNS(ns, "text");
-            lbl.setAttribute("x", pad.l - 4);
-            lbl.setAttribute("y", y + 3);
-            lbl.setAttribute("text-anchor", "end");
-            lbl.setAttribute("font-size", "9");
-            lbl.setAttribute("fill", "#5c5b56");
-            lbl.setAttribute("font-family", "Inter, sans-serif");
-            lbl.textContent = ml + "ml";
-            svg.appendChild(lbl);
+            if (entry.type === "comment") {
+              li.innerHTML = `<div class="relative pb-8">${line}<div class="relative flex items-start space-x-3"><img src="${entry.avatar}" alt="" class="size-10 rounded-full ring-8 ring-paper shrink-0" /><div class="min-w-0 flex-1"><div class="flex flex-row text-sm font-sans"><span class="font-semibold text-bl-5">${entry.name}</span><span class="whitespace-nowrap text-bl-30">&nbsp;${entry.time}</span></div><div class="mt-2 text-sm text-bl-30"><p>${entry.body}</p></div></div></div></div>`;
+            } else {
+              const tags = entry.tags.map(function (t) {
+                return `<span class="inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-sans font-semibold text-bl-5 inset-ring inset-ring-gray-200"><svg viewBox="0 0 6 6" aria-hidden="true" class="size-1.5 ${t.color}"><circle r="3" cx="3" cy="3"/></svg>${t.label}</span>`;
+              }).join(" ");
+              li.innerHTML = `<div class="relative pb-8">${line}<div class="relative flex items-start space-x-3"><div class="relative px-1"><div class="flex size-8 items-center justify-center rounded-full bg-paper-300 ring-8 ring-white">${STAT_ICON}</div></div><div class="min-w-0 flex-1 py-0"><div class="text-sm/8 text-bl-30"><span class="font-semibold text-bl-5">${entry.name}</span> updated ${tags} <span class="whitespace-nowrap">${entry.time}</span></div></div></div></div>`;
+            }
+            return li;
           }
 
-          // x-axis date labels + vertical column lines
-          recent.forEach(function(d, i) {
-            const x = xPos(i);
-            const cl = document.createElementNS(ns, "line");
-            cl.setAttribute("x1", x); cl.setAttribute("y1", pad.t);
-            cl.setAttribute("x2", x); cl.setAttribute("y2", pad.t + plotH);
-            cl.setAttribute("stroke", "#f9fafb"); cl.setAttribute("stroke-width", "1");
-            svg.appendChild(cl);
-
-            const lbl = document.createElementNS(ns, "text");
-            lbl.setAttribute("x", x);
-            lbl.setAttribute("y", svgH - 6);
-            lbl.setAttribute("text-anchor", "middle");
-            lbl.setAttribute("font-size", "9");
-            lbl.setAttribute("fill", "#5c5b56");
-            lbl.setAttribute("font-family", "Inter, sans-serif");
-            lbl.textContent = d.date;
-            svg.appendChild(lbl);
-          });
-
-          // smooth connecting line (catmull-rom)
-          const pts = recent.map(function(d, i) { return { x: xPos(i), y: yPos(d.ml) }; });
-          let d = "M " + pts[0].x + "," + pts[0].y;
-          for (let i = 0; i < pts.length - 1; i++) {
-            const p0 = pts[i - 1] || pts[i];
-            const p1 = pts[i];
-            const p2 = pts[i + 1];
-            const p3 = pts[i + 2] || pts[i + 1];
-            const cp1x = p1.x + (p2.x - p0.x) / 6;
-            const cp1y = p1.y + (p2.y - p0.y) / 6;
-            const cp2x = p2.x - (p3.x - p1.x) / 6;
-            const cp2y = p2.y - (p3.y - p1.y) / 6;
-            d += " C " + cp1x + "," + cp1y + " " + cp2x + "," + cp2y + " " + p2.x + "," + p2.y;
+          function renderList(entries, id) {
+            const ul = document.getElementById(id);
+            entries.forEach(function (entry, i) {
+              ul.appendChild(renderItem(entry, i === entries.length - 1));
+            });
           }
-          const path = document.createElementNS(ns, "path");
-          path.setAttribute("d", d);
-          path.setAttribute("fill", "none");
-          path.setAttribute("stroke", "#A93D0D");
-          path.setAttribute("stroke-width", "2");
-          path.setAttribute("stroke-linecap", "round");
-          svg.appendChild(path);
 
-          document.getElementById("feeding-graph").appendChild(svg);
+          renderList(updates.slice(-3).reverse(), "updates-preview");
+          renderList(updates.slice().reverse(), "updates-all");
         })();
         </script>
       </div>
     </div>
-    <div x-data="{ open: false }" class="overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
-      <div class="flex flex-row justify-between items-center">
-        <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Updates</h4>
-        <button @click="open = true" class="text-sm/6 font-sans font-semibold text-bl-5 hover:text-gr-l hover:cursor-pointer">View all</button>
-      </div>
-      <ul id="updates-preview" role="list" class="-mb-8 mt-4"></ul>
-
-      <!-- modal -->
-      <div x-show="open" x-cloak @click.self="open = false" class="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 p-4" style="display:none">
-        <div class="relative bg-white rounded-xl shadow-xl w-full max-w-xl flex flex-col max-h-[80vh]">
-          <div class="flex items-center justify-between px-6 py-4 border-b border-gray-200 shrink-0">
-            <h3 class="text-sm font-semibold text-bl-5">All Updates</h3>
-            <button @click="open = false" class="text-gray-400 hover:text-gray-600">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5"><path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" /></svg>
-            </button>
-          </div>
-          <div class="overflow-y-auto px-6 py-4">
-            <ul id="updates-all" role="list" class="-mb-8"></ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- UPDATES ACTIVITY FEED -->
-    <script>
-    (function () {
-      // ── ADD NEW ENTRIES HERE — oldest first, newest last ──────────────────
-      const updates = [
-        {
-          type: "stat",
-          name: "Tyler Ashley",
-          time: "on 5/09",
-          tags: [
-            { label: "Weight", color: "fill-gr-l" },
-            { label: "Feeding", color: "fill-or-l" },
-          ],
-        },
-        {
-          type: "stat",
-          name: "Tyler Ashley",
-          time: "on 5/10",
-          tags: [
-            { label: "Weight", color: "fill-gr-l" },
-            { label: "Feeding", color: "fill-or-l" },
-          ],
-        },
-        
-        {
-          type: "comment",
-          name: "Tori Radick",
-          avatar: "/images/vradick-profile.png",
-          time: "on 5/11",
-          body: "Cali's right lung is doing much better, and no brain bleeds found on the head ultrasound either. They found a moderate murmur on his echo and will start with some medication to help close his PDA.",
-        },
-        {
-          type: "comment",
-          name: "Tyler Ashley",
-          avatar: "/images/tashley-profile.png",
-          time: "on 5/12",
-          body: "IVC was removed and an IV was placed on his right hand. Cali had his food fortified. We got a call around 8pm that the fortified food did not sit well and he even reched up his breathing tube - will move to a slower feed rate to see if that helps.",
-        },
-        {
-          type: "stat",
-          name: "Tyler Ashley",
-          time: "on 5/12",
-          tags: [
-            { label: "Weight", color: "fill-gr-l" },
-            { label: "Feeding", color: "fill-or-l" },
-          ],
-        },
-        {
-          type: "comment",
-          name: "Tyler Ashley",
-          avatar: "/images/tashley-profile.png",
-          time: "on 5/15",
-          body: "Cali's PDA closed slighly, moved from Moderate to Slight-Moderate. He started a second round of the medication in hopes for it to continue to close. He will get a follow up Echo on 5/18 to review the second round of medication. He also came off of the humidity, and got a new bed.",
-        },
-        {
-          type: "stat",
-          name: "Tyler Ashley",
-          time: "on 5/18",
-          tags: [
-            { label: "Weight", color: "fill-gr-l" },
-            { label: "Feeding", color: "fill-or-l" },
-          ],
-        },
-        {
-          type: "comment",
-          name: "Tyler Ashley",
-          avatar: "/images/tashley-profile.png",
-          time: "on 5/19",
-          body: "Cali opened his eyes for the first time! He also started a 10day tapered round of steriods for his lung development.",
-        },
-        {
-          type: "comment",
-          name: "Tyler Ashley",
-          avatar: "/images/tashley-profile.png",
-          time: "on 5/25",
-          body: "Cali got his second blood transfusion. His WBC went down and the Dr. ordered a brain ultrasound to check for any brain bleeds.",
-        },
-        {
-          type: "comment",
-          name: "Tyler Ashley",
-          avatar: "/images/tashley-profile.png",
-          time: "on 5/26",
-          body: "UPDATE: ultrasound results came in and there were no brain bleeds!",
-        },
-        {
-          type: "stat",
-          name: "Tyler Ashley",
-          time: "on 5/28",
-          tags: [
-            { label: "Weight", color: "fill-gr-l" },
-            { label: "Feeding", color: "fill-or-l" },
-          ],
-        },
-        
-      ];
-      // ─────────────────────────────────────────────────────────────────────
-
-      const STAT_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-bl-30"><path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z" /></svg>`;
-
-      function renderItem(entry, isLast) {
-        const li = document.createElement("li");
-        const line = isLast ? "" : `<span aria-hidden="true" class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-paper-600"></span>`;
-
-        if (entry.type === "comment") {
-          li.innerHTML = `<div class="relative pb-8">${line}<div class="relative flex items-start space-x-3"><img src="${entry.avatar}" alt="" class="size-10 rounded-full ring-8 ring-paper shrink-0" /><div class="min-w-0 flex-1"><div class="text-sm font-sans font-semibold text-bl-5">${entry.name}</div><p class="mt-0.5 text-sm italic text-bl-30">${entry.time}</p><div class="mt-2 text-sm text-bl-30"><p>${entry.body}</p></div></div></div></div>`;
-        } else {
-          const tags = entry.tags.map(function (t) {
-            return `<span class="inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-sans font-semibold text-bl-5 inset-ring inset-ring-gray-200"><svg viewBox="0 0 6 6" aria-hidden="true" class="size-1.5 ${t.color}"><circle r="3" cx="3" cy="3"/></svg>${t.label}</span>`;
-          }).join(" ");
-          li.innerHTML = `<div class="relative pb-8">${line}<div class="relative flex items-start space-x-3"><div class="relative px-1"><div class="flex size-8 items-center justify-center rounded-full bg-paper-300 ring-8 ring-white">${STAT_ICON}</div></div><div class="min-w-0 flex-1 py-0"><div class="text-sm/8 text-bl-30"><span class="font-semibold text-bl-5">${entry.name}</span> updated ${tags} <span class="whitespace-nowrap">${entry.time}</span></div></div></div></div>`;
-        }
-        return li;
-      }
-
-      function renderList(entries, id) {
-        const ul = document.getElementById(id);
-        entries.forEach(function (entry, i) {
-          ul.appendChild(renderItem(entry, i === entries.length - 1));
-        });
-      }
-
-      renderList(updates.slice(-3).reverse(), "updates-preview");
-      renderList(updates.slice().reverse(), "updates-all");
-    })();
-    </script>
-  </div>
-</div>
-
-</main>
-<footer class="bg-white">
+  </main>
+  <footer class="bg-white">
     <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
       <div class="flex justify-center gap-x-6 md:order-2">
         
@@ -359,6 +353,6 @@
       <p class="mt-8 text-center text-sm/6 text-paper-700 md:order-1 md:mt-0">&copy; 2026 Tyler Ashley Co. All rights reserved.</p>
     </div>
   </footer>
-  </body>
+</body>
   
 </html>
