@@ -150,3 +150,41 @@ hr {
     }
 
 }
+
+#work {
+     figure {
+        @apply my-3 mx-auto max-w-3xl;
+    }
+
+    figure img {
+        @apply my-3 border border-solid border-[#0000008c] rounded;
+    }
+
+    figcaption p {
+        @apply text-xs font-sans mb-6 mx-8 md:mx-auto max-w-3xl;
+    }
+
+    figure.wide {
+        @apply my-12 w-full mx-auto max-w-6xl;
+    }
+
+    figure.wide img {
+        @apply my-3 border border-solid border-[#0000008c] rounded;
+    }
+
+    figure.wide figcaption p {
+        @apply text-xs font-sans mb-6 mx-auto max-w-6xl;
+    }
+
+    figure.extrawide {
+        @apply mx-auto my-20 w-full max-w-none rounded-none;
+    }
+
+    figure.extrawide img {
+        @apply w-full max-w-none border-none rounded-none;
+    }
+
+    figure.extrawide figcaption {
+        @apply hidden;
+    }
+}
