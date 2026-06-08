@@ -92,6 +92,18 @@
       </div>
     </nav>
   </header>
+{{ else if or (eq .RelPermalink "/cali/") }}
+  <header class="bg-white">
+    <nav class="relative z-20 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <a href="/" class="-m-1.5 p-1.5">
+        <span class="sr-only">Tyler Ashley Co</span>
+        <img class="h-8 w-auto" src="/images/tyler-ashley-co_logo_green.svg" alt="">
+      </a>
+      <div class="lflex lg:gap-x-12">
+        <a href="https://www.mealtrain.com/trains/newy5e" class="block text-sm/6 font-semibold text-gray-900 hover:text-bl-d">Meal trail <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </nav>
+  </header>
 {{ else }}
 <header
 x-data="{ open: false, toggle() { this.open = ! this.open } }"

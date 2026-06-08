@@ -1,6 +1,12 @@
 [build]
   command = "hugo"
   publish = "public"
+  functions = "netlify/functions"
 
 [build.environment]
   HUGO_VERSION = "0.145.0"
+
+[[redirects]]
+  from = "/hooks/telegram"
+  to = "/.netlify/functions/telegram"
+  status = 200

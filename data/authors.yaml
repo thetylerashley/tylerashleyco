@@ -1,0 +1,7 @@
+# data/authors.yaml — name + avatar lookup
+tyler:
+  name: "Tyler Ashley"
+  avatar: "/images/ty-avatar.png"
+tori:
+  name: "Tori Radick"
+  avatar: "/images/tori-avatar.png"
