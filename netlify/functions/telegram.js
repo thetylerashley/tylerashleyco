@@ -94,9 +94,16 @@ function applyAction(action, author, files) {
 
   if (action.type === "feed") {
     const path = "data/feedings.yaml";
-    const line = `- { date: "${todayPadded()}", ml: ${action.ml} }`;
-    const body = files[path].replace(/\s*$/, "") + `\n${line}\n`;
-    return { path, content: body, message: `feeding ${d}: ${action.ml}ml` };
+    const date = todayPadded();
+    const line = `- { date: "${date}", ml: ${action.ml} }`;
+    let base = files[path].replace(/\s*$/, "");
+    // If an entry for today already exists, replace that line; otherwise append.
+    const dupe = new RegExp(`^- \\{ date: "${date}".*\\}\\s*$`, "m");
+    if (dupe.test(base)) {
+      base = base.replace(dupe, line);
+      return { path, content: base + "\n", message: `feeding ${d}: ${action.ml}ml (updated)` };
+    }
+    return { path, content: base + `\n${line}\n`, message: `feeding ${d}: ${action.ml}ml` };
   }
 
   if (action.type === "weight") {
