@@ -3,7 +3,7 @@
 {{ $birthG := .Site.Data.weight.birth_g }}
 {{ $totalOz := div (float $g) 28.3495 }}
 {{ $lb := math.Floor (div $totalOz 16) }}
-{{ $oz := mod (int (math.Round (mul $totalOz 10))) 160 | div 10.0 }}
+{{ $oz := sub $totalOz (mul $lb 16) }}
 
 {{ $feedings := .Site.Data.feedings }}
 {{ $last := index $feedings (sub (len $feedings) 1) }}
@@ -18,7 +18,7 @@
       <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div class="relative overflow-hidden rounded-lg bg-paper px-4 py-5 sm:p-6 border border-solid border-paper-300">
           <h4 class="truncate text-sm font-sans font-semibold text-bl-30">Weight<h4>
-          <h3 class="mt-12 text-5xl font-sans font-semibold tracking-tight text-bl-5">{{ printf "%.0flb %.1foz" $lb $oz }}</h3>
+          <h3 class="mt-12 text-5xl font-sans font-semibold tracking-tight text-bl-5">{{ $lb }}lb {{ printf "%.1f" $oz }}oz</h3>
           <div class="flex flew-row justify-start gap-8">
             <p class="mt-8 text-sm font-normal font-sans tracking-tight text-paper-700"><strong>Current Weight:</strong>&nbsp;{{ $g }}g</p>
             <p class="mt-8 text-sm font-normal font-sans tracking-tight text-paper-700"><strong>Birthweight:</strong>&nbsp;{{ $birthG }}g</p>
